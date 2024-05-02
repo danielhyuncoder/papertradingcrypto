@@ -1,0 +1,164 @@
+.buyCryptoContainer {
+    width:100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.innerCryptoContainer{
+    width:40%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+}
+.coinContainer{
+    width:100%;
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    cursor:pointer;
+}
+.coinContainer:hover{
+    background:rgba(128, 128, 128, 0.388);
+}
+.coinContainer>div{
+    width:90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.coinContainer>div>img {
+    width:50px;
+    height:50px;
+}
+.lCB{
+    color:rgb(0, 76, 255);
+    font-weight:bold;
+}
+.modal{
+    width:100%;
+    height:90%;
+    background: rgba(128, 128, 128, 0.495);
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal>div {
+    width:70%;
+    height:90%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal>div>div {
+    width:90%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.fullRow{
+    width:100%;
+
+}
+.pC{
+    width:100%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fullRow>button{
+    width:50px;
+    height:50px;
+    font-weight:bold;
+    border:none;
+    color:white;
+    background:red;
+    font-size:200%;
+    cursor:pointer
+}
+.fullRow>button:hover{
+    background:rgb(171, 0, 0);
+}
+.searchCryptoInput{
+    padding:10px;
+    width:80%;
+}
+.searchUpRow{
+    width:50%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchUpRow>button{
+    width:20%;
+    padding:10px;
+    color:white;
+    background:rgb(68, 68, 245);
+    border:1px solid black;
+    cursor:pointer;
+}
+.searchUpRow>button:hover{
+    background:rgb(0, 0, 255);
+}
+.buyInput {
+    padding:10px;
+    width:30%;
+}
+.b{
+    color:rgb(62, 62, 255);
+}
+.gBtn{
+    padding:10px;
+    width:20%;
+    font-weight:bold;
+    color:white;
+    border:none;
+    background:rgb(68, 68, 245);
+    cursor:pointer;
+}
+.gBtn:hover{
+    background:rgb(21, 21, 255);
+}
+.re {
+    background:rgba(21, 21, 255, 0.454) !important;
+    cursor:default !important;
+}
+@media(max-width: 900px){
+    .innerCryptoContainer{
+        width:60%;
+    }
+    .buyInput{
+        width:55%;
+    }
+}
+@media(max-width: 600px){
+    .innerCryptoContainer{
+        width:80%;
+    }
+    .coinContainer>div>img{
+        width:30px;
+    height:30px;
+    }
+    .searchUpRow{
+        width:80%;
+    }
+    .gBtn{
+        width:40%;
+    }
+}

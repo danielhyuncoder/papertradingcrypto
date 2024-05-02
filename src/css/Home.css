@@ -1,0 +1,53 @@
+.homeContainer {
+    width:100%;
+    height:150vh;
+}
+.introContainer {
+    width:100%;
+    height:40%;
+    background: url("../images/logo.png") no-repeat top center;
+    background-size:100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.centerBlock{
+    width:50%;
+    height:80%;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(43, 87, 244);
+}
+.advantagesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:70%;
+}
+.advContainer{
+    width:100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(38, 66, 246);
+}
+.advContainer>div{
+    width:90%;
+    height:90%;
+    color:white;
+}
+.gr {
+    background: green !important;
+}
+@media(max-width:600px){
+    .advantagesContainer{
+        height:150%;
+    }
+}

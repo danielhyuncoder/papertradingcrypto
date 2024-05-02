@@ -1,0 +1,49 @@
+.headerContainer{
+    width:100%;
+    height:10vh;
+    background:rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headerInner{
+    width:90%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    height:90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnRow{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+    width:25%;
+}
+.btnRow>button{
+    padding:10px;
+    color:white;
+    background:rgb(0, 158, 0);
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    margin-right:2%;
+}
+.btnRow>button:hover{
+    background:rgb(0, 105, 0);
+}
+
+@media(max-width:800px){
+    .btnRow{
+        width:45%;
+    }
+}
+@media (max-width: 520px){
+    .btnRow{
+        width:60%;
+    }
+}

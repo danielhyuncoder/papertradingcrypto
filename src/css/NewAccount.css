@@ -1,0 +1,44 @@
+.newAccountContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:90vh;
+
+}
+.newAccountContainer>div{
+    width:30%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newAccountContainer>div>input {
+    width:80%;
+    padding:10px;
+}
+.r{color:red;}
+.g{color:green;}
+.gAccBtn{
+    background: rgb(0, 158, 0);
+    color: white;
+    padding:10px;
+    border:none;
+    width:40%;
+    font-weight:bold;
+    cursor:pointer;
+}
+.gAccBtn:hover{
+    background:rgb(0, 119, 0);
+}
+@media(max-width:1000px){
+    .newAccountContainer>div{
+        width:55%;
+    }
+}
+@media(max-width:500px){
+    .newAccountContainer>div{
+        width:100%;
+    }
+}
