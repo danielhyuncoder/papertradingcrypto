@@ -21,7 +21,7 @@ This project was a fullstack web app created using React.js, Vanilla CSS for the
 <br/>
 <h2>Start:</h2>
 <p>
-  In order to start this project, you would first need to create a Mongodb cluster (Along with the connection uri) and a firebase project. Then in the .env file for server, where it says "MONGO_KEY", input the password of the uri string, and in "GLOT_KEY" input any Glot API key. The "key" environmental variable in the server can be anything of your choosing as long as it matches the "REACT_APP_PASSWORD" of the .env file in the main directory. In "serviceKey.json" input your firebase admin serviceKey from your firebase project. In "firebase.js", replace the firebaseConfig with your firebase config provided to you by firebase.
+  In order to start this project, you would first need to create a Mongodb cluster (Along with the connection uri) and a firebase project. Then in the .env file for server, where it says "key", input the password from the mongodb atlas dashboard. The "password" environmental variable in the server can be anything of your choosing as long as it matches the "REACT_APP_PASSWORD" of the .env file in the main directory. In "serviceKey.json" input your firebase admin serviceKey from your firebase project. In "firebase.js", replace the firebaseConfig with your firebase config provided to you by firebase.
 </p>
 <br/>
 <h2>Demo:</h2>
